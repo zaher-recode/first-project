@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Your Pet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,700" rel="stylesheet">
+</head>
+<body>
+    <h1>kindly register your loved ones using the form below!</h1>
+    <form>
+        <!-- this is a form to register the animals for future activities -->
+        <p><strong>Customer details</strong></p>
+        <select name="title" id="title">
+            <option value="" disabled>kindly choose your title</option>
+            <option value="mr">Mr.</option>
+            <option value="ms">Ms.</option>
+            <option value="mrs">Mrs.</option>
+            <option value="master">Master.</option>
+            <option value="miss">Miss.</option>
+        </select>
+        
+        <label for="username">Full Name: </label>
+         <input type="text" name="username" id="username"><br>
+         <p><strong>Pet details</strong></p>
+
+        <label for="pet_name">Pet Name</label> 
+        <input type="text" name="pet_name" id="pet_name"><br>
+
+        <p><strong>Pet Specie</strong></p>
+        <label for="dog">Dog</label>
+        <input type="radio" name="pet_specie" id="dog">
+        <label for="cat">Cat</label>
+        <input type="radio" name="pet_specie" id="cat">
+        <label for="bird">Bird</label>
+        <input type="radio" name="pet_specie" id="bird">
+        <label for="lizard">Lizard</Label>
+        <input type="radio" name="pet_specie" id="lizard"><br>
+        <label for="hamster">Hamster</Label>
+        <input type="radio" name="pet_specie" id="hamster"> 
+        <label for="fish">Fish</Label>
+        <input type="radio" name="pet_specie" id="fish">
+        <label for="other">Other</Label>
+        <input type="radio" name="pet_specie" id="other">
+        <textarea name="pet_specie"  cols="30" rows="1" placeholder="please specify"></textarea>
+                  <br>    <br>
+    
+        <p><strong>Pet Gender</strong></p>
+        <label for="male">Male</label>
+        <input type="radio" name="pet_gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="pet_gender" id="female">
+        
+        <p>Describe your pet health</p>
+        <h5>please tick all that applies</h5>
+        <label for="illness">Illness</label>
+        <input type="checkbox" name="illness" id="illness">
+        <label for="pregnant">pregnant</label>
+        <input type="checkbox" name="pregnant" id="pregnant">
+        <label for="allergies">Allergies</label>
+        <input type="checkbox" name="allergies" id="allergies">
+        <br>
+        <textarea name="health" cols="50" rows="6" placeholder="Elaborate more please"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <br><br>
+
+<!-- add more pictures in futute to avoid boring look -->
+    <a href="/index.html">Go back to the main page</a>
+
+</body>
+</html>
